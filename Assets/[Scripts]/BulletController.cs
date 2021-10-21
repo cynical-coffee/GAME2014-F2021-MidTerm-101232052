@@ -1,4 +1,13 @@
-﻿using System.Collections;
+﻿/*********************Bullet Controller***********************************
+    Name: Meghan Paris
+    Student#: 1010232052
+    Date Modified: 19/10/21
+    File: BulletController.cs
+    Description: Controller script for bullet objects.
+    Revision History: Changed bullets to fire along the x-axis.
+******************************************************************************/
+using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -28,7 +37,7 @@ public class BulletController : MonoBehaviour, IApplyDamage
     {
         transform.position += new Vector3(horizontalSpeed, 0.0f, 0.0f ) * Time.deltaTime;
     }
-
+    
     private void _CheckBounds()
     {
         if (transform.position.x > horizontalBoundary)

@@ -1,4 +1,13 @@
-﻿using System.Collections;
+﻿/*********************Player Controller***********************************
+    Name: Meghan Paris
+    Student#: 1010232052
+    Date Modified: 19/10/21
+    File: PlayerController.cs
+    Description: Controller script for player behaviour.
+    Revision History: Changed player to move in a fixed space along the y-axis.
+******************************************************************************/
+using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using UnityEditor;
