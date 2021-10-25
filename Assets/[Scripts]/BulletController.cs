@@ -1,11 +1,13 @@
-﻿/*********************Bullet Controller***********************************
+﻿/********************* Bullet Controller ***********************************
     Name: Meghan Paris
     Student#: 1010232052
-    Date Modified: 19/10/21
+    Date Modified: 2021-10-19
     File: BulletController.cs
     Description: Controller script for bullet objects.
     Revision History: Changed bullets to fire along the x-axis.
 ******************************************************************************/
+
+
 using System.Collections;
 using System.Collections;
 using System.Collections.Generic;

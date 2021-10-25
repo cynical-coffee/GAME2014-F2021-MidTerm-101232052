@@ -1,4 +1,10 @@
-﻿using System.Collections;
+﻿/**************************** Bullet Factory **********************************
+    Name: Meghan Paris
+    Student#: 1010232052
+    File: BulletFactory.cs
+    Description: Factory which is used to create bullets objects for the player and/or enemy bullet pool.
+******************************************************************************/
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

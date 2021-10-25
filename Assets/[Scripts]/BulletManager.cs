@@ -1,4 +1,10 @@
-﻿using System.Collections;
+﻿/********************* Bullet Manager ***********************************
+    Name: Meghan Paris
+    Student#: 1010232052
+    File: BulletManager.cs
+    Description: Oversee the creation and filling of the bullet pools with bullets from the factory for the player and/or enemy.
+******************************************************************************/
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

@@ -1,7 +1,7 @@
-﻿/*********************Background Controller***********************************
+﻿/********************* Background Controller **********************************
     Name: Meghan Paris
     Student#: 1010232052
-    Date Modified: 19/10/21
+    Date Modified: 2021-10-20
     File: BackgroundController.cs
     Description: Controller script for scrolling background.
     Revision History: Changed background to scroll along x-axis for landscape orientation.

@@ -1,11 +1,11 @@
-﻿/*********************Player Controller***********************************
+﻿/********************* Player Controller ***********************************
     Name: Meghan Paris
     Student#: 1010232052
-    Date Modified: 19/10/21
+    Date Modified: 2021-10-19
     File: PlayerController.cs
     Description: Controller script for player behaviour.
     Revision History: Changed player to move in a fixed space along the y-axis.
-******************************************************************************/
+***************************************************************************/
 using System.Collections;
 using System.Collections;
 using System.Collections.Generic;
@@ -19,10 +19,10 @@ public class PlayerController : MonoBehaviour
 
     //** Changed some variable names to better reflect new player movement. **//
     [Header("Boundary Check")]
-    public float verticalBoundary; //**" Previously horizontalBoundary. **//
+    public float verticalBoundary; //**" Previously verticalBoundary. **//
 
     [Header("Player Speed")]
-    public float verticalSpeed; //**" Previously horizontalSpeed. **//
+    public float verticalSpeed; //**" Previously verticalSpeed. **//
     public float maxSpeed;
     public float verticalTValue; //**" Previously horizontalTValue. **//
 
@@ -51,7 +51,7 @@ public class PlayerController : MonoBehaviour
      private void _FireBullet()
     {
         // delay bullet firing 
-        if(Time.frameCount % 60 == 0 && bulletManager.HasBullets())
+        if (Time.frameCount % 60 == 0 && bulletManager.HasBullets())
         {
             bulletManager.GetBullet(transform.position);
         }
